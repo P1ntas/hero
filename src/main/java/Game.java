@@ -8,6 +8,8 @@ import com.googlecode.lanterna.terminal.Terminal;
 import java.io.IOException;
 
 public class Game {
+    private int x = 10;
+    private int y = 10;
     private TerminalScreen screen;
     public Game() throws IOException {
         try {
