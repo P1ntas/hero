@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     implementation group: 'com.googlecode.lanterna', name: 'lanterna', version: '3.1.1'
+    implementation 'de.mklinger.micro:keystores:1.2'
 }
 
 test {
