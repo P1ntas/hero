@@ -104,6 +104,9 @@ public class Arena {
         for (Coin coin : coins) {
             coin.draw(graphics);
         }
+        for (Monster monster : monsters) {
+            monster.draw(graphics);
+        }
     }
 
     private List<Monster> createMonsters() {
